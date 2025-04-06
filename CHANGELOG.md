@@ -14,6 +14,13 @@ e adota [versionamento semântico](https://semver.org/lang/pt-BR/).
 - Sincronização remota (em planejamento)
 
 ---
+## [0.0.4] & [0.0.5] - 2024-04-06
+
+### Corrigido
+
+- Validação do profile
+
+---
 
 ## [0.0.3] - 2024-04-06
 
