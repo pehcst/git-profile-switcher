@@ -2,7 +2,7 @@
   "name": "git-profile-switcher",
   "displayName": "Git Profile Switcher",
   "description": "Troque rapidamente entre perfis do Git",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "icon.png",
   "publisher": "pehcst",
   "repository": {
