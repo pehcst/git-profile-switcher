@@ -15,6 +15,33 @@ e adota [versionamento semântico](https://semver.org/lang/pt-BR/).
 
 ---
 
+## [0.0.3] - 2024-04-06
+
+### Adicionado
+
+- `activationEvents` para ativar a extensão automaticamente ao abrir projetos com repositório Git (`.git`)
+- Suporte a `onStartupFinished` para ativar a extensão assim que o VSCode iniciar
+
+### Corrigido
+
+- Corrigido erro onde o status bar não atualizava ao abrir o VSCode
+
+---
+
+## [0.0.2] - 2024-04-06
+
+### Adicionado
+
+- Campo `"license"` no `package.json` + arquivo `LICENSE` com licença MIT
+- Ícone adicionado para exibição no Marketplace e dentro do VSCode
+- Campos `repository`, `bugs` e `homepage` configurados no `package.json`
+
+### Corrigido
+
+- Correção no match de perfis utilizando `toLowerCase()` para e-mails
+- Ajustes nos paths de build com esbuild
+- Remoção de variável `autoApplied` não utilizada
+
 ## [0.0.1] - 2024-04-06
 
 ### Adicionado
