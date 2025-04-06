@@ -1,9 +1,19 @@
 {
   "name": "git-profile-switcher",
-  "displayName": "git-profile-switcher",
+  "displayName": "Git Profile Switcher",
   "description": "Troque rapidamente entre perfis do Git",
   "version": "0.0.1",
+  "icon": "icon.png",
   "publisher": "pehcst",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pehcst/git-profile-switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pehcst/git-profile-switcher/issues"
+  },
+  "homepage": "https://github.com/pehcst/git-profile-switcher#readme",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.98.0"
   },

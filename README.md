@@ -1,5 +1,9 @@
 # 🔄 Git Profile Switcher
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/pehcst.git-profile-switcher?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=pehcst.git-profile-switcher)
+[![Instalar](https://img.shields.io/badge/instalar-no%20VSCode-blue?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=pehcst.git-profile-switcher)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Troque rapidamente entre múltiplos perfis Git direto no VSCode.
 
 Ideal para quem trabalha em várias empresas ou possui projetos pessoais com identidades diferentes.
@@ -13,7 +17,7 @@ Ideal para quem trabalha em várias empresas ou possui projetos pessoais com ide
 - 🧠 Detecta automaticamente o perfil pelo caminho do projeto (`pathRules`)
 - 🔁 Reaplica o último perfil usado ao reabrir o projeto
 - ✅ Atualiza tanto `.git/config` local quanto o `~/.gitconfig` global
-- 📦 Status bar com nome e perfil atual ativo
+- 📦 Exibe o nome e o perfil atual na status bar
 
 ---
 
@@ -26,7 +30,7 @@ Ideal para quem trabalha em várias empresas ou possui projetos pessoais com ide
 
 ### 2. Configure seus perfis
 
-- Adicione `nome`, `e-mail` e um identificador (ex: `pessoal`, `xpto`)
+- Adicione `nome`, `e-mail` e um identificador (ex: `pessoal`, `empresaXPTO`)
 
 ### 3. Use com praticidade
 
@@ -37,7 +41,7 @@ Ideal para quem trabalha em várias empresas ou possui projetos pessoais com ide
 
 ## 📁 Exemplo de configuração `.gitprofiles.json`
 
-Salvo automaticamente em `~/.gitprofiles.json` após criar perfis:
+Esse arquivo é salvo automaticamente em `~/.gitprofiles.json` após criar seus perfis:
 
 ```json
 {
@@ -50,7 +54,6 @@ Salvo automaticamente em `~/.gitprofiles.json` após criar perfis:
     "email": "pedro@xpto.com.br"
   },
   "pathRules": {
-    "/Users/pedro/projects/xpto": "xpto"
+    "/Users/pedro/projects/xpto": "empresaXPTO"
   }
 }
-```
