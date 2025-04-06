@@ -1,0 +1,18 @@
+{
+  "pessoal": {
+    "name": "Pedro Costa",
+    "email": "pedro@gmail.com"
+  },
+  "vinco": {
+    "name": "Pedro Costa",
+    "email": "pedro@vinco.com.br"
+  },
+  "upflux": {
+    "name": "Pedro Costa",
+    "email": "pedro.c@upflux.net"
+  },
+  "ohana": {
+    "name": "Pedro Costa",
+    "email": "pedro@ohana.software"
+  }
+}
